@@ -170,6 +170,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -204,11 +205,11 @@ body {
 }
 
 .btn-ios:hover {
-  background: var(--ios-purple);
+  background: #ffffff;
   color: var(--bg-color-deep);
-  border-color: var(--ios-purple);
+  border-color: #ffffff;
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px var(--ios-purple-glow);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
 }
 
 .btn-ios:hover .btn-icon {
